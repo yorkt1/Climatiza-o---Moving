@@ -479,9 +479,7 @@ footer {
   }
 
   @media (max-width: 768px) {
-    .container {
-      display: block;
-    }
+    
     .whatsapp {
       position: fixed;
       width: 111px;
@@ -501,4 +499,3 @@ footer {
     #whatsapps{
       height: 25px;
     }}
-    
