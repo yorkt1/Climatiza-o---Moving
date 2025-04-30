@@ -159,7 +159,7 @@ nav ul li a.active::after {
 
 /* Banner */
 .banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('imagens/pngtree-man-installing-an-air-conditioner-in-a-room-image_2527743.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../imagens/pngtree-man-installing-an-air-conditioner-in-a-room-image_2527743.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -477,9 +477,12 @@ footer {
   #whatsapps{
     height: 50px;
   }
-
+  
+  /* Responsivo */
   @media (max-width: 768px) {
-    
+    .container {
+      display: block;
+    }
     .whatsapp {
       position: fixed;
       width: 111px;
