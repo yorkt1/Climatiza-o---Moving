@@ -159,7 +159,7 @@ nav ul li a.active::after {
 
 /* Banner */
 .banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../imagens/pngtree-man-installing-an-air-conditioner-in-a-room-image_2527743.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://res.cloudinary.com/dqewxdbfx/image/upload/v1746659554/WhatsApp_Image_2025-05-05_at_18.35.01_powdle.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -273,6 +273,7 @@ nav ul li a.active::after {
 }
 
 /* Contato */
+
 .contato {
     background: var(--gray);
 }
@@ -297,9 +298,10 @@ nav ul li a.active::after {
 
 .contato-info i {
     margin-right: 15px;
-    color: var(--primary-color);
+    color: white;
     font-size: 1.2rem;
-    width: 20px;
+    width: 5px;
+    
 }
 
 .social-links {
